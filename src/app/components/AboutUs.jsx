@@ -27,7 +27,7 @@ const AboutUs = () => {
                         alt="About Us"
                         width={600}
                         height={600}
-                        className="rounded shadow-2xl hover:shadow-md transition-all"
+                        className="rounded shadow-2x1 hover:shadow-md transition-all "
                     />
                 </div>
             </section>

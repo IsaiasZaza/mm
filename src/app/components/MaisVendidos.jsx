@@ -37,12 +37,11 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/brinco.jpg"
+                            src="/removedor-de-maquiagem.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
                         <h3 className="text-lg font-medium">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <p className="text-gray-500">2x de R$ 37,95</p>
                         <p className="text-gray-800 font-bold">R$ 75,90</p>
                         <button className="mt-2 py-2 px-4 rounded-full flex bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all"><BsHandbag className='text-xl mr-1'/>Comprar</button>
                     </div>
@@ -55,7 +54,6 @@ const MaisVendidos = () => {
                             className="mb-4"
                         />
                         <h3 className="text-lg font-medium">Refil Creme Acetinado Hidratante Desodorante Corporal Lily 250g</h3>
-                        <p className="text-gray-500">2x de R$ 37,95</p>
                         <p className="text-gray-800 font-bold">R$ 75,90</p>
                         <button className="mt-2 py-2 px-4 rounded-full flex bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all"><BsHandbag className='text-xl mr-1'/>Comprar</button>
                     </div>
@@ -63,7 +61,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/bolsa.jpg"
+                            src="/antiacne.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -75,7 +73,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/brinco.jpg"
+                            src="/de-unhas.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -87,7 +85,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/limpador.jpg"
+                            src="/base.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -99,7 +97,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/path-to-image1.jpg"
+                            src="/gloss.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -111,7 +109,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/path-to-image1.jpg"
+                            src="/brincos.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -123,7 +121,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/path-to-image1.jpg"
+                            src="/bolsa.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
