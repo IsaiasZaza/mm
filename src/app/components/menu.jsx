@@ -13,7 +13,7 @@ const Menu = () => {
                 />
             </div>
             <ul className="flex-1 flex justify-center space-x-4 text-white font-semibold cursor-pointer">
-                <li className="hover:text-red-300 flex"><FaHome className="text-xl mr-1 text-red-300" />Home</li>
+                <li className="hover:text-red-300 flex"><FaHome className="text-xl mr-1 text-red-300" /> <Link href="" className="">Home</Link></li>
                 <li className="hover:text-red-300">Sobre Nós</li>
                 <li className="hover:text-red-300">Produtos</li>
                 <li className="hover:text-red-300">Contato</li>
