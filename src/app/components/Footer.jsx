@@ -16,8 +16,8 @@ const Footer = () => {
                     {/* Section 3: Contato */}
                     <div className="w-full md:w-1/4 mb-6">
                         <h3 className="text-lg font-semibold mb-4">Contato</h3>
-                        <p className="mb-2">Email: <a href="mailto:contato@maquiagem.com" className="hover:text-red-300">contato@maquiagem.com</a></p>
-                        <p>Telefone: <a href="tel:+5511999999999" className="hover:text-red-300">+55 11 99999-9999</a></p>
+                        <p className="mb-2">Email: <a href="mailto:memmakedf@gmail.com" className="hover:text-red-300">memmakedf@gmail.com</a></p>
+                        <p>Telefone: <a href="tel:+556198227447" className="hover:text-red-300">+55 61 98227447</a></p>
                     </div>
 
                     {/* Section 4: Redes Sociais */}

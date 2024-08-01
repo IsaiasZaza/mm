@@ -10,7 +10,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 const Slider = () => {
     return (
-        <div className="flex justify-center items-center w-full overflow-hidden">
+        <div className="flex justify-center items-center w-full overflow-hidden lg:h-auto h-96 p-4 bg-gray-100 pt-16">
             <Swiper
                 navigation={true}
                 modules={[Navigation, Autoplay]}
@@ -23,20 +23,22 @@ const Slider = () => {
             >
                 <SwiperSlide>
                     <Image
-                        src="/banner-1.jpg"
-                        width={1000}
-                        height={1500}
+                        src="/banner-2.jpg"
+                        layout="responsive"
+                        width={1900}
+                        height={600}
                         alt="Logo da MM"
-                        className="w-full h-auto"
+                        className="object-cover w-full h-auto rounded-lg shadow-md"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
                         src="/banner-2.jpg"
-                        width={1000}
-                        height={1500}
+                        layout="responsive"
+                        width={1900}
+                        height={600}
                         alt="Logo da MM"
-                        className="w-full h-auto"
+                        className="object-cover w-full h-auto rounded-lg shadow-md"
                     />
                 </SwiperSlide>
             </Swiper>
@@ -44,4 +46,4 @@ const Slider = () => {
     );
 };
 
-export default Slider
+export default Slider;

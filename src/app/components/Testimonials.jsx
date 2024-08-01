@@ -15,9 +15,8 @@ const Testimonials = () => {
                 <h2 className="text-center text-2xl font-bold mb-6"> Clientes Felizes -
                     <Link
                         href="https://www.google.com/search?client=firefox-b-d&q=M%26M+MAKE+E+ACESSORIOS&dlnr=1&sei=XomqZvr0Nqqu5OUP_MeQsQo#dlnr=1&lrd=0x935bd38d8ad84ae3:0x82686e69468205c8,3,,,,"
-                        className='hover:text-red-500 transition-all border-b-2 border-black'
-                    >Nos Avalie
-                    </Link>
+                        className='hover:text-red-500 transition-all border-b-2 border-red-700 text-red-700 hover:border-b-4'
+                    > Nos Avalie</Link>
                 </h2>
                 <Swiper
                     spaceBetween={30}
