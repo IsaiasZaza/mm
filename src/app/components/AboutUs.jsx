@@ -23,7 +23,7 @@ const AboutUs = () => {
                 </div>
                 <div className="md:w-1/2 mt-6 md:mt-0 md:ml-6">
                     <Image
-                        src="/teste.jpg"
+                        src="/banner01.jpg"
                         alt="About Us"
                         width={600}
                         height={600}

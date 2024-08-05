@@ -14,7 +14,7 @@ const Slider = () => {
             <Swiper
                 navigation={true}
                 modules={[Navigation, Autoplay]}
-                className="mySwiper w-full"
+                className="mySwiper w-full "
                 autoplay={{
                     delay: 3000,
                     disableOnInteraction: false,
@@ -23,7 +23,7 @@ const Slider = () => {
             >
                 <SwiperSlide>
                     <Image
-                        src="/banner-2.jpg"
+                        src="/banner01.jpg"
                         layout="responsive"
                         width={1900}
                         height={600}
@@ -33,7 +33,7 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src="/banner-2.jpg"
+                        src="/banner01.jpg"
                         layout="responsive"
                         width={1900}
                         height={600}
