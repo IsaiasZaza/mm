@@ -33,7 +33,7 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src="/banner01.png"
+                        src="/banner02.png"
                         layout="responsive"
                         width={1900}
                         height={600}
