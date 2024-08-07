@@ -1,6 +1,8 @@
 "use client";
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTwitter  } from 'react-icons/fa';
+import { IoLogoWhatsapp } from "react-icons/io";
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -24,17 +26,17 @@ const Footer = () => {
                     <div className="w-full md:w-1/4 mb-6">
                         <h3 className="text-lg font-bold mb-4">Redes Sociais</h3>
                         <div className="flex space-x-4">
-                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 bg-blue-700 p-1 rounded-md hover:text-white">
+                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white bg-blue-700 p-1 rounded-md">
                                 <FaFacebookF className="text-xl" />
                             </a>
-                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 bg-pink-600 p-1 rounded-md hover:text-white">
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white bg-pink-600 p-1 rounded-md">
                                 <FaInstagram className="text-xl" />
                             </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 bg-blue-500 p-1 rounded-md hover:text-white">
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white bg-blue-500 p-1 rounded-md">
                                 <FaTwitter className="text-xl" />
                             </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 bg-blue-500 p-1 rounded-md hover:text-white">
-                                <FaLinkedin className="text-xl" />
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white bg-green-500 p-1 rounded-md">
+                                <IoLogoWhatsapp className="text-xl" />
                             </a>
                         </div>
                     </div>
@@ -42,7 +44,7 @@ const Footer = () => {
 
                 {/* Bottom Section: Copyright */}
                 <div className="text-center mt-8">
-                    <p className="text-sm font-semi-bold">&copy; 2024 Mm make e acessórios. Todos os direitos reservados.</p>
+                    <p className="text-sm font-semi-bold">&copy; 2024 Criado por <Link target="_blank" href="https://wa.link/b4voez" className='font-bold hover:text-red-400'>Cefas</Link> - Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import Link from 'next/link';
 
 const Testimonials = () => {
@@ -13,8 +13,9 @@ const Testimonials = () => {
         <div className="bg-gray-200 mt-3 py-8">
             <div className="container mx-auto">
                 <h2 className="text-center text-2xl font-bold mb-6">
-                    Clientes Felizes - 
+                    Clientes Felizes -
                     <Link
+                        target="_blank"
                         href="https://www.google.com/search?client=firefox-b-d&q=M%26M+MAKE+E+ACESSORIOS&dlnr=1&sei=XomqZvr0Nqqu5OUP_MeQsQo#dlnr=1&lrd=0x935bd38d8ad84ae3:0x82686e69468205c8,3,,,,"
                         className="hover:text-red-500 transition-all border-b-2 border-red-700 text-red-700 hover:border-b-4 ml-2"
                     >
@@ -24,12 +25,7 @@ const Testimonials = () => {
                 <Swiper
                     spaceBetween={30}
                     navigation={true}
-                    pagination={{
-                        clickable: true,
-                        bulletClass: 'swiper-pagination-bullet',
-                        bulletActiveClass: 'swiper-pagination-bullet-active',
-                    }}
-                    modules={[Navigation, Autoplay, Pagination]}
+                    modules={[Navigation, Autoplay]}
                     breakpoints={{
                         640: {
                             slidesPerView: 1,
@@ -115,16 +111,6 @@ const Testimonials = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-
-            <style jsx global>{`
-                .swiper-pagination-bullet {
-                    background-color: #7c3aed; /* Roxo */
-                    opacity: 0.7;
-                }
-                .swiper-pagination-bullet-active {
-                    background-color: #5b21b6; /* Roxo escuro */
-                }
-            `}</style>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const Menu = () => {
     }, []);
 
     return (
-        <nav className={`fixed flex items-center w-full z-50 transition duration-300 ${isScrolled ? 'bg-black shadow-lg opacity-80' : 'bg-black'}`}>
+        <nav className={`fixed flex items-center w-full z-50 transition duration-300 ${isScrolled ? 'bg-black shadow-2xl opacity-80 transition-all' : 'bg-black'}`}>
             <div className="flex-shrink-0 lg:ml-3 ml-0">
                 <Image
                     src="/mmLogo.png"
@@ -37,7 +37,7 @@ const Menu = () => {
                 <li className="hover:text-red-300 flex"><Link href="#" className="">Home</Link></li>
                 <li className="hover:text-red-300"> <Link href="#sobre">Sobre Nós</Link></li>
                 <li className="hover:text-red-300"> <Link href="#produtos">Produtos</Link></li>
-                <li className="hover:text-red-300">Contato</li>
+                <li className="hover:text-red-300"> <Link href="#contato">Contato</Link></li>
             </ul>
         </nav>
     );
