@@ -4,13 +4,18 @@ import MaisVendidos from "./components/MaisVendidos";
 import Testimonials from "./components/Testimonials";
 import AboutUs from "./components/AboutUs";
 
+
 export default function Home() {
   return (
     <main>
       <Slider />
-      <AboutUs />
-      <Lancamento />
-      <MaisVendidos />
+      <div id="sobre">
+        <AboutUs />
+      </div>
+      <div id="produtos" className="pt-6">
+        <Lancamento />
+        <MaisVendidos />
+      </div>
       <Testimonials />
     </main>
   );

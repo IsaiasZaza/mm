@@ -11,7 +11,7 @@ import { BsHandbag } from "react-icons/bs";
 const MaisVendidos = () => {
     return (
         <div className="container mx-auto py-8 px-10">
-            <h2 className="text-center text-3xl font-bold mb-6 cursor-pointer text-red-600 hover:text-red-800 transition-colors">Mais Vendidos</h2>
+            <h2 className="text-center lg:text-3xl text-2xl font-bold mb-6 cursor-pointer text-red-600 hover:text-red-800 transition-colors">Mais Vendidos</h2>
             <Swiper
                 spaceBetween={30}
                 navigation={true}

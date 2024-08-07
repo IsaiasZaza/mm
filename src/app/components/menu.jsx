@@ -1,10 +1,30 @@
+"use client"
 import Image from "next/image"
 import { FaHome } from "react-icons/fa";
 import Link from "next/link";
+import React, { useState, useEffect } from 'react';
 
 const Menu = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 700) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <nav className="bg-black flex items-center  fixed w-full z-50">
+        <nav className={`fixed flex items-center w-full z-50 transition duration-300 ${isScrolled ? 'bg-black shadow-lg opacity-80' : 'bg-black'}`}>
             <div className="flex-shrink-0 lg:ml-3 ml-0">
                 <Image
                     src="/mmLogo.png"
@@ -14,9 +34,9 @@ const Menu = () => {
                 />
             </div>
             <ul className="flex-1 flex justify-center space-x-4 text-white font-semibold cursor-pointer">
-                <li className="hover:text-red-300 flex"><FaHome className="text-xl mr-1 text-red-300" /> <Link href="" className="">Home</Link></li>
-                <li className="hover:text-red-300">Sobre Nós</li>
-                <li className="hover:text-red-300">Produtos</li>
+                <li className="hover:text-red-300 flex"><Link href="#" className="">Home</Link></li>
+                <li className="hover:text-red-300"> <Link href="#sobre">Sobre Nós</Link></li>
+                <li className="hover:text-red-300"> <Link href="#produtos">Produtos</Link></li>
                 <li className="hover:text-red-300">Contato</li>
             </ul>
         </nav>
