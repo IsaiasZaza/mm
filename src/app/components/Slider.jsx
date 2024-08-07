@@ -10,7 +10,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 const Slider = () => {
     return (
-        <div className="flex justify-center items-center w-full overflow-hidden lg:h-auto h-96 p-4 bg-gray-100 pt-16">
+        <div className="flex justify-center items-center w-full overflow-hidden h-auto bg-cover bg-gray-100 pt-16">
             <Swiper
                 navigation={true}
                 modules={[Navigation, Autoplay]}
@@ -23,7 +23,7 @@ const Slider = () => {
             >
                 <SwiperSlide>
                     <Image
-                        src="/banner-teste.png"
+                        src="/banner01.png"
                         layout="responsive"
                         width={1900}
                         height={600}
@@ -33,7 +33,7 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src="/banner-teste.png"
+                        src="/banner01.png"
                         layout="responsive"
                         width={1900}
                         height={600}

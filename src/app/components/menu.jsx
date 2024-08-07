@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Menu = () => {
     return (
-        <nav className="bg-black flex items-center p-1 fixed w-full z-50">
+        <nav className="bg-black flex items-center  fixed w-full z-50">
             <div className="flex-shrink-0 lg:ml-3 ml-0">
                 <Image
                     src="/mmLogo.png"

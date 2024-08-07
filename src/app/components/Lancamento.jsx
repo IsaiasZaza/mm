@@ -8,24 +8,14 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { BsHandbag } from "react-icons/bs";
 
 const Lancamento = () => {
-    const [aparecer, setAparecer] = useState(true);
-
-    const toggleCategory = () => {
-        setAparecer(!aparecer);
-    }
 
     return (
         <div className="container mx-auto py-8 px-10">
-            <h2 onClick={toggleCategory} className="text-center text-3xl font-bold mb-6 cursor-pointer text-red-600 hover:text-red-800 transition-colors">
-                {aparecer ? "ACESSE MAQUIAGENS" : "ACESSE ACESSÓRIOS"}
-            </h2>
+            <h2 className="text-center text-3xl font-bold mb-6 cursor-pointer text-red-600 hover:text-red-800 transition-colors">Acessorios & Maquiagens</h2>
             <Swiper
                 spaceBetween={30}
                 navigation={true}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Navigation, Pagination]}
+                modules={[Navigation]}
                 breakpoints={{
                     640: {
                         slidesPerView: 1,
@@ -42,7 +32,7 @@ const Lancamento = () => {
                 }}
                 className="mySwiper"
             >
-                {aparecer ? (
+               
                     <>
                         <SwiperSlide>  {/*ACESSORIOSSSSS*/}
                             <div className="flex flex-col items-center text-center">
@@ -143,7 +133,6 @@ const Lancamento = () => {
                             </div>
                         </SwiperSlide>
                     </>
-                ) : (
                     <>
                         <SwiperSlide> {/*MAQUIAGENS*/}
                             <div className="flex flex-col items-center text-center">
@@ -244,7 +233,6 @@ const Lancamento = () => {
                             </div>
                         </SwiperSlide>
                     </>
-                )}
             </Swiper>
         </div>
     );
