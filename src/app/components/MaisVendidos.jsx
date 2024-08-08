@@ -37,7 +37,7 @@ const MaisVendidos = () => {
                         <img
                             src="/hidratantes.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -51,7 +51,7 @@ const MaisVendidos = () => {
                         <img
                             src="/volumoso.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -65,7 +65,7 @@ const MaisVendidos = () => {
                         <img
                             src="/antiacne.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -79,7 +79,7 @@ const MaisVendidos = () => {
                         <img
                             src="/de-unhas.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -93,7 +93,7 @@ const MaisVendidos = () => {
                         <img
                             src="/base.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -107,7 +107,7 @@ const MaisVendidos = () => {
                         <img
                             src="/sombra.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -121,7 +121,7 @@ const MaisVendidos = () => {
                         <img
                             src="/brincos.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
@@ -135,7 +135,7 @@ const MaisVendidos = () => {
                         <img
                             src="/bolsa.jpg"
                             alt="Product 1"
-                            className="mb-4"
+                            className="mb-4 rounded-md"
                         />
                         <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>

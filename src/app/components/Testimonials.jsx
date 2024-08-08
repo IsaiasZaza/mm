@@ -41,13 +41,13 @@ const Testimonials = () => {
                         },
                     }}
                     className="mySwiper"
-                    autoplay={{
+                   autoplay={{
                         delay: 3000,
-                        disableOnInteraction: false,
+                       disableOnInteraction: false,
                     }}
                 >
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"A loja é incrível, tem produtos para todos os gostos e bolsos!"</p>
                             <p>Manoela - Duque de Caxias/RJ</p>
                             <div className="text-pink-500">
@@ -56,7 +56,7 @@ const Testimonials = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"O produto chegou perfeitamente, bem embalado e rápido."</p>
                             <p>Ana Carolina - São Paulo/SP</p>
                             <div className="text-pink-500">
@@ -65,7 +65,7 @@ const Testimonials = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"A loja é maravilhosa, os produtos são ótimos e o atendimento melhor ainda!"</p>
                             <p>Gabriela - Viamão/RS</p>
                             <div className="text-pink-500">
@@ -74,7 +74,7 @@ const Testimonials = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"Os produtos chegaram bem embalados. Amei!!!"</p>
                             <p>Laura - Toledo/PR</p>
                             <div className="text-pink-500">
@@ -83,7 +83,7 @@ const Testimonials = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"Atendimento excelente, recomendo para todos."</p>
                             <p>Mariana - Rio de Janeiro/RJ</p>
                             <div className="text-pink-500">
@@ -92,7 +92,7 @@ const Testimonials = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"Produtos de qualidade, voltarei a comprar com certeza."</p>
                             <p>Felipe - Belo Horizonte/MG</p>
                             <div className="text-pink-500">
@@ -101,7 +101,7 @@ const Testimonials = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-white p-6 shadow-md rounded-lg text-center">
+                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"Melhor loja de acessórios que já comprei."</p>
                             <p>Camila - Salvador/BA</p>
                             <div className="text-pink-500">

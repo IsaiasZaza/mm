@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import { BsHandbag } from "react-icons/bs";
+import Link from 'next/link';
 
 const Lancamento = () => {
 
@@ -32,207 +33,207 @@ const Lancamento = () => {
                 }}
                 className="mySwiper"
             >
-               
-                    <>
-                        <SwiperSlide>  {/*ACESSORIOSSSSS*/}
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/batao-bala.jpg"
-                                    alt="Product 1"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 75,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/limpador.jpg"
-                                    alt="Product 2"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 75,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/base-liquida.jpg"
-                                    alt="Product 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 42,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/removedor-de-maquiagem.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/gloss.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/brinco.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/prata.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                    </>
-                    <>
-                        <SwiperSlide> {/*MAQUIAGENS*/}
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/preta.jpg"
-                                    alt="Accessory 1"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Brinco de Argola Grande</h3>
-                                <p className="text-gray-800 font-bold">R$ 39,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/sabonete.jpg"
-                                    alt="Accessory 2"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Bolsa de Couro Preta</h3>
-                                <p className="text-gray-800 font-bold">R$ 149,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/unha.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/cristal.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/caneta.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/skin-care.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col items-center text-center">
-                                <img
-                                    src="/melancia.jpg"
-                                    alt="Accessory 3"
-                                    className="mb-4"
-                                />
-                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
-                                <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
-                                    <BsHandbag className='text-xl mr-1' /> Comprar
-                                </button>
-                            </div>
-                        </SwiperSlide>
-                    </>
+
+                <>
+                    <SwiperSlide>  {/*ACESSORIOSSSSS*/}
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/batao-bala.jpg"
+                                alt="Product 1"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/wiv0um">Comprar</Link></button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/limpador.jpg"
+                                alt="Product 2"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/base-liquida.jpg"
+                                alt="Product 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/removedor-de-maquiagem.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/gloss.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/brinco.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/prata.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                </>
+                <>
+                    <SwiperSlide> {/*MAQUIAGENS*/}
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/preta.jpg"
+                                alt="Accessory 1"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/sabonete.jpg"
+                                alt="Accessory 2"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/unha.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/cristal.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/caneta.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/skin-care.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex flex-col text-start">
+                            <img
+                                src="/melancia.jpg"
+                                alt="Accessory 3"
+                                className="mb-4 rounded-md"
+                            />
+                            <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                            <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
+                            <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                            <p className='text-sm text-stone-400'>A vista no PIX</p>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        </div>
+                    </SwiperSlide>
+                </>
             </Swiper>
         </div>
     );

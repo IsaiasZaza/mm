@@ -24,13 +24,13 @@ const AboutUs = () => {
                             necessidades e desejos das nossas clientes.
                         </p>
                     </div>
-                    <div className="md:w-1/2 mt-6 md:mt-0 md:ml-">
+                    <div className="md:w-1/2 mt-6 md:mt-0 md:ml-0">
                         <Image
                             src="/quem2.png"
                             alt="About Us"
                             width={600}
                             height={600}
-                            className="rounded shadow-2xl hover:shadow-xl transition-all "
+                            className="rounded-3xl shadow-md transition-all shadow-slate-600"
                         />
                     </div>
                 </section>
