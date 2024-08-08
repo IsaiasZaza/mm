@@ -11,7 +11,7 @@ const Lancamento = () => {
 
     return (
         <div className="container mx-auto py-8 px-10">
-            <h2 className="text-center lg:text-3xl text-2xl font-bold mb-6 cursor-pointer text-red-600 hover:text-red-800 transition-colors">Acessorios & Maquiagens</h2>
+            <h2 className="text-center lg:text-3xl text-2xl font-bold mb-6 cursor-default text-rose-800 hover:text-pink-800 transition-colors">Acessorios & Maquiagens</h2>
             <Swiper
                 spaceBetween={30}
                 navigation={true}
@@ -43,7 +43,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">a Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
                                 <p className="text-gray-800 font-bold">R$ 75,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -57,7 +57,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Refil Creme Acetinado Hidratante Desodorante Corporal Lily 250g</h3>
                                 <p className="text-gray-800 font-bold">R$ 75,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -71,7 +71,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Gloss Labial Vermelho Morango Intense Bubbaloo 5ml</h3>
                                 <p className="text-gray-800 font-bold">R$ 42,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -85,7 +85,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -99,7 +99,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -113,7 +113,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -127,7 +127,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -143,7 +143,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Brinco de Argola Grande</h3>
                                 <p className="text-gray-800 font-bold">R$ 39,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -157,7 +157,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Bolsa de Couro Preta</h3>
                                 <p className="text-gray-800 font-bold">R$ 149,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -171,7 +171,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -185,7 +185,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -199,7 +199,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -213,7 +213,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>
@@ -227,7 +227,7 @@ const Lancamento = () => {
                                 />
                                 <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 89,90</p>
-                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-red-500 text-white font-semibold hover:bg-red-700 hover:text-gray-50 transition-all">
+                                <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
                                 </button>
                             </div>

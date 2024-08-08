@@ -10,14 +10,14 @@ import Link from 'next/link';
 
 const Testimonials = () => {
     return (
-        <div className="bg-gray-200 mt-3 py-8">
+        <div className="bg-slate-100 mt-3 py-8">
             <div className="container mx-auto">
-                <h2 className="text-center text-2xl font-bold mb-6">
+                <h2 className="text-center text-2xl font-semibold mb-6 cursor-default">
                     Clientes Felizes -
                     <Link
                         target="_blank"
                         href="https://www.google.com/search?client=firefox-b-d&q=M%26M+MAKE+E+ACESSORIOS&dlnr=1&sei=XomqZvr0Nqqu5OUP_MeQsQo#dlnr=1&lrd=0x935bd38d8ad84ae3:0x82686e69468205c8,3,,,,"
-                        className="hover:text-red-500 transition-all border-b-2 border-red-700 text-red-700 hover:border-b-4 ml-2"
+                        className="hover:text-pink-500 transition-all border-b-2 border-pink-700 text-pink-700 hover:border-b-4 font-bold ml-2"
                     >
                         Nos Avalie
                     </Link>
@@ -48,63 +48,63 @@ const Testimonials = () => {
                 >
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"A loja é incrível, tem produtos para todos os gostos e bolsos!"</p>
-                            <p className="font-bold">Manoela - Duque de Caxias/RJ</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"A loja é incrível, tem produtos para todos os gostos e bolsos!"</p>
+                            <p>Manoela - Duque de Caxias/RJ</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"O produto chegou perfeitamente, bem embalado e rápido."</p>
-                            <p className="font-bold">Ana Carolina - São Paulo/SP</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"O produto chegou perfeitamente, bem embalado e rápido."</p>
+                            <p>Ana Carolina - São Paulo/SP</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"A loja é maravilhosa, os produtos são ótimos e o atendimento melhor ainda!"</p>
-                            <p className="font-bold">Gabriela - Viamão/RS</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"A loja é maravilhosa, os produtos são ótimos e o atendimento melhor ainda!"</p>
+                            <p>Gabriela - Viamão/RS</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"Os produtos chegaram bem embalados. Amei!!!"</p>
-                            <p className="font-bold">Laura - Toledo/PR</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"Os produtos chegaram bem embalados. Amei!!!"</p>
+                            <p>Laura - Toledo/PR</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"Atendimento excelente, recomendo para todos."</p>
-                            <p className="font-bold">Mariana - Rio de Janeiro/RJ</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"Atendimento excelente, recomendo para todos."</p>
+                            <p>Mariana - Rio de Janeiro/RJ</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"Produtos de qualidade, voltarei a comprar com certeza."</p>
-                            <p className="font-bold">Felipe - Belo Horizonte/MG</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"Produtos de qualidade, voltarei a comprar com certeza."</p>
+                            <p>Felipe - Belo Horizonte/MG</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-md rounded-lg text-center">
-                            <p className="italic mb-4">"Melhor loja de acessórios que já comprei."</p>
-                            <p className="font-bold">Camila - Salvador/BA</p>
-                            <div className="text-yellow-500">
+                            <p className="italic mb-4 font-bold">"Melhor loja de acessórios que já comprei."</p>
+                            <p>Camila - Salvador/BA</p>
+                            <div className="text-pink-500">
                                 ★★★★★
                             </div>
                         </div>
