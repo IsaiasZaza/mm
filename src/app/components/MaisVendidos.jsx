@@ -35,7 +35,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/removedor-de-maquiagem.jpg"
+                            src="/hidratantes.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -47,7 +47,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/limpador.jpg"
+                            src="/volumoso.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
@@ -95,7 +95,7 @@ const MaisVendidos = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center text-center">
                         <img
-                            src="/gloss.jpg"
+                            src="/sombra.jpg"
                             alt="Product 1"
                             className="mb-4"
                         />
