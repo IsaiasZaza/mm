@@ -41,7 +41,7 @@ const Lancamento = () => {
                                     alt="Product 1"
                                     className="mb-4"
                                 />
-                                <h3 className="text-lg font-medium">a Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
+                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 75,90</p>
                                 <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
@@ -55,7 +55,7 @@ const Lancamento = () => {
                                     alt="Product 2"
                                     className="mb-4"
                                 />
-                                <h3 className="text-lg font-medium">Refil Creme Acetinado Hidratante Desodorante Corporal Lily 250g</h3>
+                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 75,90</p>
                                 <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
@@ -69,7 +69,7 @@ const Lancamento = () => {
                                     alt="Product 3"
                                     className="mb-4"
                                 />
-                                <h3 className="text-lg font-medium">Gloss Labial Vermelho Morango Intense Bubbaloo 5ml</h3>
+                                <h3 className="text-lg font-medium">Óculos de Sol Estiloso</h3>
                                 <p className="text-gray-800 font-bold">R$ 42,90</p>
                                 <button className="mt-2 py-2 px-4 rounded-full flex items-center bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 transition-all">
                                     <BsHandbag className='text-xl mr-1' /> Comprar
@@ -79,7 +79,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/removedor-de-maquiagem.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -93,7 +93,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/gloss.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -107,7 +107,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/brinco.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -121,7 +121,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/prata.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -137,7 +137,7 @@ const Lancamento = () => {
                         <SwiperSlide> {/*MAQUIAGENS*/}
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/preta.jpg"
                                     alt="Accessory 1"
                                     className="mb-4"
                                 />
@@ -151,7 +151,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/sabonete.jpg"
                                     alt="Accessory 2"
                                     className="mb-4"
                                 />
@@ -165,7 +165,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/unha.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -179,7 +179,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/cristal.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -193,7 +193,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/caneta.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -207,7 +207,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/skin-care.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
@@ -221,7 +221,7 @@ const Lancamento = () => {
                         <SwiperSlide>
                             <div className="flex flex-col items-center text-center">
                                 <img
-                                    src="/base-liquida.jpg"
+                                    src="/melancia.jpg"
                                     alt="Accessory 3"
                                     className="mb-4"
                                 />
