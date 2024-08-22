@@ -39,9 +39,9 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Hidratante para o rosto e corpo 200ML - Colornow</h3>
+                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 30,00</p>por:</span>
+                        <p className="text-pink-800 font-bold text-2xl">R$ 23,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
@@ -53,9 +53,10 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Gloss lip volumoso vegano</h3>
+                        <p className='text-sm'>Auxilia no aumento do volume dos lábios</p>
+                        <span className='flex text-base gap-1 mt-4'> de <p className='text-base line-through'>R$ 15,00</p>por:</span>
+                        <p className="text-pink-800 font-bold text-2xl">R$ 13,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
@@ -67,9 +68,9 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Sérum Facial Bioativo Antiacne 30ml <p>10 em 1</p></h3>
+                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 18,00</p>por:</span>
+                        <p className="text-pink-800 font-bold text-2xl">R$ 15,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
@@ -81,9 +82,9 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Tratamento De Unha Minhas Unhas Minhas Regras - Super Poderes</h3>
+                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 10,00</p>por:</span>
+                        <p className="text-pink-800 font-bold text-2xl">R$ 8,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
@@ -95,9 +96,10 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Base Liquida Matte New - Lua e Neve</h3>
+                        <p className='text-sm'>Proporcionar uma cobertura impecável</p>
+                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 20,00</p>por:</span>
+                        <p className="text-pink-800 font-bold text-2xl mt-1">R$ 17,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
@@ -109,9 +111,9 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Rubyrose E HBF572 Quarteto Sombra Sobrancelha</h3>
+                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 22,00</p>por:</span>
+                        <p className="text-pink-800 font-bold text-2xl">R$ 20,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
@@ -123,23 +125,9 @@ const MaisVendidos = () => {
                             alt="Product 1"
                             className="mb-4 rounded-md"
                         />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
-                        <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="flex flex-col text-start">
-                        <img
-                            src="/bolsa.jpg"
-                            alt="Product 1"
-                            className="mb-4 rounded-md"
-                        />
-                        <h3 className="text-base">Refil Creme Acetinado Desodorante Hidratante Corporal Lily Absolu 250g</h3>
-                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
-                        <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
+                        <h3 className="text-base font-semibold">Brincos femininos e modernos de diversos modelos</h3>
+                        <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 12,00</p>A partir de:</span>
+                        <p className="text-pink-800 font-bold text-2xl">R$ 5,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
                         <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
                     </div>
