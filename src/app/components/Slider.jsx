@@ -13,7 +13,7 @@ const Slider = () => {
   return (
     <>
 
-      <div className=" justify-center items-center w-full overflow-hidden h-auto bg-cover bg-gray-100 hidden lg:block">
+      <div className=" justify-center items-center w-full overflow-hidden h-auto bg-cover bg-gray-100 hidden lg:block py-12">
         <Swiper
           navigation={true}
           pagination={{

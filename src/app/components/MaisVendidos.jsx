@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import { BsHandbag } from "react-icons/bs";
+import Link from 'next/link';
 
 
 const MaisVendidos = () => {
@@ -43,7 +44,13 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 30,00</p>por:</span>
                         <p className="text-pink-800 font-bold text-2xl">R$ 23,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex bg-pink-500 
+                        text-white font-semibold hover:bg-pink-700 
+                        hover:text-gray-50 justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/ox2xvq">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -58,7 +65,14 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-4'> de <p className='text-base line-through'>R$ 15,00</p>por:</span>
                         <p className="text-pink-800 font-bold text-2xl">R$ 13,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex 
+                        bg-pink-500 text-white font-semibold 
+                        hover:bg-pink-700 hover:text-gray-50 
+                        justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/pry5j6">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -72,7 +86,14 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 18,00</p>por:</span>
                         <p className="text-pink-800 font-bold text-2xl">R$ 15,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex 
+                        bg-pink-500 text-white font-semibold 
+                        hover:bg-pink-700 hover:text-gray-50 
+                        justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/afzu0n">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -86,7 +107,14 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 10,00</p>por:</span>
                         <p className="text-pink-800 font-bold text-2xl">R$ 8,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex 
+                        bg-pink-500 text-white font-semibold 
+                        hover:bg-pink-700 hover:text-gray-50 
+                        justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/9mas24">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -101,7 +129,14 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 20,00</p>por:</span>
                         <p className="text-pink-800 font-bold text-2xl mt-1">R$ 17,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex 
+                        bg-pink-500 text-white font-semibold 
+                        hover:bg-pink-700 hover:text-gray-50 
+                        justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/b648gw">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -115,7 +150,14 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 22,00</p>por:</span>
                         <p className="text-pink-800 font-bold text-2xl">R$ 20,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex 
+                        bg-pink-500 text-white font-semibold 
+                        hover:bg-pink-700 hover:text-gray-50 
+                        justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/ei7dls">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -129,7 +171,14 @@ const MaisVendidos = () => {
                         <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 12,00</p>A partir de:</span>
                         <p className="text-pink-800 font-bold text-2xl">R$ 5,00</p>
                         <p className='text-sm text-stone-400'>A vista no PIX</p>
-                        <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                        <button 
+                        className=" 
+                        mt-2 py-2 px-4 
+                        rounded-full flex 
+                        bg-pink-500 text-white font-semibold 
+                        hover:bg-pink-700 hover:text-gray-50 
+                        justify-center transition-all">
+                        <BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/2gqx73">Comprar</Link></button>
                     </div>
                 </SwiperSlide>
             </Swiper>

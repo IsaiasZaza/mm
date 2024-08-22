@@ -49,7 +49,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"A loja é incrível, tem produtos para todos os gostos e bolsos!"</p>
-                            <p>Manoela - Duque de Caxias/RJ</p>
+                            <p>Isaias Goncalves de Azevedo - Brasilia/DF</p>
                             <div className="text-pink-500">
                                 ★★★★★
                             </div>
@@ -57,8 +57,8 @@ const Testimonials = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-lg rounded-lg text-center">
-                            <p className="italic mb-4 font-bold">"O produto chegou perfeitamente, bem embalado e rápido."</p>
-                            <p>Ana Carolina - São Paulo/SP</p>
+                            <p className="italic mb-4 font-bold">"Produtos de otima qualidade"</p>
+                            <p>Gustavo Oliveira - Brasilia/DF</p>
                             <div className="text-pink-500">
                                 ★★★★★
                             </div>
@@ -66,17 +66,8 @@ const Testimonials = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-lg rounded-lg text-center">
-                            <p className="italic mb-4 font-bold">"A loja é maravilhosa, os produtos são ótimos e o atendimento melhor ainda!"</p>
-                            <p>Gabriela - Viamão/RS</p>
-                            <div className="text-pink-500">
-                                ★★★★★
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
-                            <p className="italic mb-4 font-bold">"Os produtos chegaram bem embalados. Amei!!!"</p>
-                            <p>Laura - Toledo/PR</p>
+                            <p className="italic mb-4 font-bold">"A loja é maravilhosa, excelente Atendimento!"</p>
+                            <p>Micael Lima - Brasilia/DF</p>
                             <div className="text-pink-500">
                                 ★★★★★
                             </div>
@@ -85,7 +76,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"Atendimento excelente, recomendo para todos."</p>
-                            <p>Mariana - Rio de Janeiro/RJ</p>
+                            <p>Rafaella Thais - Brasilia/DF</p>
                             <div className="text-pink-500">
                                 ★★★★★
                             </div>
@@ -94,16 +85,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className="bg-white p-6 shadow-lg rounded-lg text-center">
                             <p className="italic mb-4 font-bold">"Produtos de qualidade, voltarei a comprar com certeza."</p>
-                            <p>Felipe - Belo Horizonte/MG</p>
-                            <div className="text-pink-500">
-                                ★★★★★
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-white p-6 shadow-lg rounded-lg text-center">
-                            <p className="italic mb-4 font-bold">"Melhor loja de acessórios que já comprei."</p>
-                            <p>Camila - Salvador/BA</p>
+                            <p>Micael Lopes Chagas - Brasilia/DF</p>
                             <div className="text-pink-500">
                                 ★★★★★
                             </div>

@@ -10,17 +10,17 @@ const AboutUs = () => {
         className="flex flex-col md:flex-row items-center p-6 text-gray-800 mx-auto container py-16 relative z-10"
     >
         <div className="md:w-1/3 mx-auto p-4 rounded-lg">
-            <h2 className="lg:text-3xl text-2xl font-bold lg:text-start text-center text-pink-950">Quem somos nos?</h2>
+            <h2 className="lg:text-3xl text-xl font-bold lg:text-start text-center text-pink-950">Quem somos nos?</h2>
             <div className="bg-rose-700 h-1 w-64 mb-4 lg:mx-0 mx-auto"></div>
-            <h3 className="text-xl text-pink-950 mb-4 font-semibold">Somos a M&M</h3>
+            <h3 className="lg:text-xl text-base text-pink-950 mb-4 font-semibold">Somos a M&M</h3>
 
-            <p className="mb-4 font-semibold text-pink-950 text-lg">
+            <p className="mb-4 font-semibold text-pink-950 lg:text-lg text-base">
                 Uma loja localizada em Samambaia Norte, especializada em
                 produtos de beleza e acessórios femininos. Temos como compromisso
                 oferecer a você produtos de alta qualidade que realçam sua autoestima,
                 beleza e estilo.
             </p>
-            <p className="mb-4 font-semibold text-pink-950 text-lg">
+            <p className="mb-4 font-semibold text-pink-950 lg:text-lg text-base">
                 Nossa missão é proporcionar uma experiência única de compras,
                 oferecendo produtos  de beleza e acessórios que atendam às
                 necessidades e desejos das nossas clientes.

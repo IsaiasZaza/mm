@@ -13,6 +13,10 @@ const Footer = () => {
                     <div className="w-full md:w-1/4 mb-6">
                         <h3 className="text-lg font-bold mb-4">Sobre Nós</h3>
                         <p className='text-gray-400 font-semibold'>Somos uma loja especializada em maquiagem, oferecendo produtos de alta qualidade para realçar sua beleza.</p>
+                        <p className='mt-3 text-gray-400 font-semibold'>1 Coríntios 6:19
+                    Acaso não sabem que o corpo de vocês é santuário do 
+                    Espírito Santo que habita em vocês, que lhes foi dado por Deus, 
+                    e que vocês não são de vocês mesmos?</p>
                     </div>
 
                     {/* Section 3: Contato */}
@@ -26,16 +30,10 @@ const Footer = () => {
                     <div className="w-full md:w-1/4 mb-6">
                         <h3 className="text-lg font-bold mb-4">Redes Sociais</h3>
                         <div className="flex space-x-4">
-                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white bg-blue-700 p-1 rounded-md flex items-center justify-center h-8 w-8 transform transition-all duration-500 ease-in-out hover:scale-110 ">
-                                <FaFacebookF className="text-xl" />
-                            </a>
-                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white bg-pink-600 p-1 rounded-md flex items-center justify-center h-8 w-8 transform transition-all duration-500 ease-in-out hover:scale-110 ">
+                            <a href="https://www.instagram.com/mm.makeacessoriosdf/" target="_blank" rel="noopener noreferrer" className="text-white bg-pink-600 p-1 rounded-md flex items-center justify-center h-8 w-8 transform transition-all duration-500 ease-in-out hover:scale-110 ">
                                 <FaInstagram className="text-xl" />
                             </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white bg-blue-500 p-1 rounded-md flex items-center justify-center h-8 w-8 transform transition-all duration-500 ease-in-out hover:scale-110 ">
-                                <FaTwitter className="text-xl" />
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white bg-green-500 p-1 rounded-md flex items-center justify-center h-8 w-8 transform transition-all duration-500 ease-in-out hover:scale-110 ">
+                            <a href="https://wa.link/c6l5dt" target="_blank" rel="noopener noreferrer" className="text-white bg-green-500 p-1 rounded-md flex items-center justify-center h-8 w-8 transform transition-all duration-500 ease-in-out hover:scale-110 ">
                                 <IoLogoWhatsapp className="text-xl" />
                             </a>
                         </div>
