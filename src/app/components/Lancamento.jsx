@@ -46,7 +46,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 10,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 8,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/wiv0um">Comprar</Link></button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/27jln3">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -60,7 +60,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 29,90</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 25,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/uontpy">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -74,7 +74,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 17,99</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 16,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/mh44t5">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -88,7 +88,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 15,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 13,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/z87u1j">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -102,7 +102,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 16,99</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 15,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="Max Love Lip Gloss Mágico Black Rain Muda De Cor Na Pele">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -116,7 +116,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/nc3kty">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -130,7 +130,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 90,90</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 75,90</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/wiv0um">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                 </>
@@ -146,7 +146,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 140,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 120,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/o8sfyj">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -160,7 +160,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 13,90</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 12,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/zp4o56">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -174,7 +174,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 11,99</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 10,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/n42cf3">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -188,7 +188,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 10,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 8,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/jtkh3n">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -202,7 +202,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 14,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 12,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/obehy2">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -216,7 +216,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 3,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 2,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/tuoxzk">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -230,7 +230,7 @@ const Lancamento = () => {
                             <span className='flex text-base gap-1 mt-3'> de <p className='text-base line-through'>R$ 17,00</p>por:</span>
                             <p className="text-pink-800 font-bold text-2xl">R$ 15,00</p>
                             <p className='text-sm text-stone-400'>A vista no PIX</p>
-                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' />Comprar</button>
+                            <button className=" mt-2 py-2 px-4 rounded-full flex bg-pink-500 text-white font-semibold hover:bg-pink-700 hover:text-gray-50 justify-center transition-all"><BsHandbag className='text-xl mr-1' /><Link target="_blank" href="https://wa.link/sngox6">Comprar</Link></button>
                         </div>
                     </SwiperSlide>
                 </>
